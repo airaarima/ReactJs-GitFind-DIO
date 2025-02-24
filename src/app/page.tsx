@@ -3,7 +3,7 @@ import { Home } from "./Home/page";
 
 export default function App() {
   return (
-    <div className="grid grid-rows-[auto,1fr] h-screen gap-8">
+    <div className="flex flex-col h-screen gap-8">
       <Header/>
       <Home/>
     </div>
